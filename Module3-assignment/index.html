@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>People & Songs</title><!--rename this appropriately-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='styles.css'>
+      <!--COMPLETED insert a link to the stylesheet provided in the root folder you downloaded-->
+  </head>
+
+  <body>
+    <header>
+      <h1>People & Songs</h1>
+      <img src="images/People and Songs LOGO.jpeg"
+            alt= "People and Song name over a picture of people in the background slightly fading away">
+      <!-- COMPLETED insert <img> element, link to the a small
+          version of the band/movie logo. You can either find an existing logo for the band/movie or create one of your own-->
+    </header>
+
+    <main>
+      <article>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CwjHLKCiaZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- COMPLETED find a video you would like to embed from youtube. click 'share' beneath the video. select the 'embed' tab and copy/paste iframe code from youtube -->
+
+        <h2>Community of Independent Artists Merged into One<!--insert a tagline for your band/movie-Completed --></h2>
+
+        <p><!--write a paragraph hyping your band/movie-->
+        People and Songs is a community of singers who want to increase their knowledge in music and ministry. A school was formed in Indiana to help equip students to become better worship leaders, songwriters, musicians and missionaries. Singers change, but their energy continues to grow. Check them out on tours or near neighboring churches helping communities grow.</p>
+
+        <p>Click on the images below to find more information about the band/movie.</p>
+      </article>
+
+      <div class="further-info">
+
+        <!--insert an href within the link below that references the band/movie's actual website-->
+        <a href="https://www.peopleandsongs.com/">
+          <img srcset= "images/People and Songs group.jpeg 480w,
+                        images/People and Songs group.jpeg 800w"
+                sizes="(max-width: 600px) 480px, 800px"
+                src="images/People and Songs group.jpeg">
+          <!-- insert appropriate images with srcsets and sizes.
+            create figure and fig caption elements to make an image caption that says 'About Us'-->
+            <figcaption>About Us</figcaption>
+        </a>
+
+        <!--insert an href within the link below that references a new html page you create in your root folder called tour.html or screens.html if you are creating a movie site. this new page should include, at a minimum, an HTML table that gives your band's tour dates and locations or locations and times where your movie is screening-->
+        <a href="tours.html">
+          <img srcset= "images/singing.jpeg 480w,
+                        images/singing.jpeg 800w"
+              sizes="(max-width: 600px) 480px, 800px"
+              src="images/singing.jpeg"><!-- insert appropriate images with srcsets and sizes.
+            create figure and fig caption elements to make an image caption that says 'About Us'-->
+            <figcaption>Tour</figcaption>
+        </a>
+
+        <!--insert an href within the link below that references a new html page you create in your root folder called fans.html. this new page should include, at a minimum, an HTML form that would allow a user to enter their personal information to sign up for a fan club for your band or movie. Don't forget a Submit button! Note that these forms don't have to actually collect the information that is entered. This would require technology that is beyond the scope of this course-->
+        <a href="fans.html">
+          <img src="images/Choir wide.jpeg"><!-- insert appropriate images with srcsets and sizes.
+            create figure and fig caption elements to make an image caption that says 'Join the fanclub!'-->
+            <figcaption>Join the fanclub!</figcaption>
+        </a>
+
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="closing-image">
+        <img
+              src= "images/pas.jpeg"><!-- insert picture element with an image that is appropriate for large devices and one that is cropped to show an important detail for mobile devices (see the Responsive Images lesson for an example)-->
+      </div>
+
+    </main>
+  </body>
+</html>
